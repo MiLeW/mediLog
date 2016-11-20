@@ -13,8 +13,18 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        medilog.cpp
+        medilog.cpp \
+    Dose.cpp \
+    Treatment.cpp \
+    XMLfunctions.cpp
 
-HEADERS  += medilog.h
+HEADERS  += medilog.h \
+    Date.hh \
+    Dose.hh \
+    Treatment.hh \
+    XMLfunctions.hh
 
 FORMS    += medilog.ui
+
+DISTFILES += \
+    LICENSE
